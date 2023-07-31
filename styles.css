@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Noto+Serif&display=swap');
+
+/* Cuerpo base */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background:linear-gradient(10deg, rgb(30, 5, 50), indigo)
+    
+}
+
+/* HR INICIO */
+
+hr#ini {
+    width: 85%;
+    color: azure;
+}
+
+hr#form {
+    width: 85%;
+    color: azure;
+}
+
+hr#habil {
+    width: 85%;
+    color: azure;
+}
+
+hr#datos {
+    width: 85%;
+    color: azure;
+}
+
+
+/* Barra navegacion principal */
+.nav-a {
+    display: inline-block;
+    font-family: 'Belanosima', sans-serif;
+    background: rgb(40, 5, 65);
+    color: azure;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+
+.nav-a:hover {
+    background:indigo;
+}
+
+nav.nav-bar {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(40, 5, 65);
+    padding: 1rem;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100% ;
+}
+
+
+/* Foto, nombre y descripción */
+
+#start {
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 15rem;
+    width: 85%;
+    text-align: center;
+}
+
+/* Foto */
+
+div#start img {
+    height: 15rem;
+    border-radius: 50%;
+    border: solid 0.5rem;
+    border-color: rgb(255, 255, 255);
+}
+
+/* Nombre */
+
+.title-name {
+    font-family: 'Belanosima', sans-serif;
+    color: azure;
+    font-size: 5rem;
+}
+
+/* Descripcion */
+
+p.resume {
+    font-family: 'Noto Serif', serif;
+    color: azure;
+    font-size: 1.2rem;
+}
+
+
+/* Habilidades */
+
+#skills {
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    width: 85%;
+    display:flow-root ;
+    text-align: center;
+}
+
+h3.skills {
+    font-family: 'Belanosima', sans-serif;
+    color: azure;
+    font-size: 2rem;
+}
+
+.list-left {
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: left;
+    color: azure;
+    font-family: 'Noto Serif', serif;
+    color: azure;
+    font-size: 1.2rem;
+}
+
+/* Formación */
+
+#edu {
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 15rem;
+    width: 85%;
+    text-align: center;
+}
+
+h3.edu {
+    font-family: 'Belanosima', sans-serif;
+    color: azure;
+    font-size: 2rem;
+}
+
+.tabla-edu {
+    margin: auto;
+    color: azure;
+    font-family: 'Noto Serif', serif;
+    color: azure;
+    font-size: 1.2rem;
+}
+
+/* Datos */
+
+#data {
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    width: 85%;
+    text-align: center;
+    align-items: center;
+}
+
+h3.data {
+    font-family: 'Belanosima', sans-serif;
+    color: azure;
+    font-size: 2rem;
+}
+
+.tabla-datos {
+    margin: auto;
+    color: azure;
+    font-family: 'Noto Serif', serif;
+    color: azure;
+    font-size: 1.2rem;
+}
+
+td {
+    padding: 1rem;
+    margin: auto;
+    text-align: justify;
+    padding-left: 5rem;
+}
+
+td a {
+    text-decoration: none;
+    color: azure;
+}
+
+td a:hover {
+    color: indigo;
+}
+
+/* Footer */
+
+footer.creditos  {
+    position:fixed;
+    background-color: rgb(15, 1, 25);
+    width: 100%;
+    z-index: 1000;
+    height: 6rem;
+    bottom: 0;
+    left: 0;
+}
+
+footer h4 {
+    padding: 1rem;
+    font-family: 'Noto Serif', serif; 
+    text-shadow: 2px;
+    text-align: center;
+    color: azure;
+}
